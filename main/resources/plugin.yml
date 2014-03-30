@@ -26,11 +26,11 @@ commands:
 permissions:
     dreamplus.command.getmedrunk:
         default: true
-    dreamplus.command.vhelm:
+    dreamplus.command.dhelm:
         default: true
-    dreamplus.command.vtrail:
+    dreamplus.command.dtrail:
         default: true
-    dreamplus.command.vglow:
+    dreamplus.command.dglow:
         default: true
     dreamplus.command.getotherdrunk:
         defualt: false
