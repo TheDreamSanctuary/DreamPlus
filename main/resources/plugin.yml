@@ -1,0 +1,40 @@
+name: DreamPlus
+main: com.thedreamsanctuary.main.java.dreamplus.DreamPlus
+version: 1.5
+authors: [Ajcool1050]
+description: Eats, Hugs, and Pipes plus more with DreamPlus.
+load: POSTWORLD
+
+commands:
+    firewalk:
+        permission: dreamplus.command.firewalk
+    getmedrunk:
+        permission: dreamplus.command.getmedrunk
+    getotherdrunk:
+        permission: dreamplus.command.getotherdrunk
+    getmejoe:
+        permission: dreamplus.command.getmejoe
+    getotherjoe:
+        permission: dreamplus.command.getotherjoe
+    dhelm:
+        permission: dreamplus.command.dhelm
+    dglow:
+        permission: dreamplus.command.dglow
+    dtrail:
+        permission: dreamplus.command.dtrail
+        
+permissions:
+    dreamplus.command.getmedrunk:
+        default: true
+    dreamplus.command.vhelm:
+        default: true
+    dreamplus.command.vtrail:
+        default: true
+    dreamplus.command.vglow:
+        default: true
+    dreamplus.command.getotherdrunk:
+        defualt: false
+    dreamplus.command.getotherjoe:
+        defualt: false
+    
+    
