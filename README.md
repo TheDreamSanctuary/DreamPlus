@@ -1,4 +1,4 @@
 DreamPlus
 =========
 
-Plugin by AjCool that gives players cool particle effects &amp; other gizmos! 
+Plugin by Ajcool that gives players cool particle effects &amp; other gizmos! 
