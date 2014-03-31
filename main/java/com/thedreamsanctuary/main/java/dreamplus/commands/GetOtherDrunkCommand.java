@@ -27,7 +27,7 @@ public class GetOtherDrunkCommand implements CommandExecutor
         if (sender instanceof Player)
         {
             Player player = (Player) sender;
-            if (player.hasPermission("voxelplus2.command.getotherdrunk"))
+            if (player.hasPermission("dreamplus.command.getotherdrunk"))
             {
                 if (args.length == 2)
                 {

@@ -27,7 +27,7 @@ public class DreamHelmetCommand implements CommandExecutor
         if (sender instanceof Player)
         {
             Player player = (Player) sender;
-            if (player.hasPermission("voxelplus2.command.vhelm"))
+            if (player.hasPermission("dreamplus.command.dhelm"))
             {
                 if (args.length < 1)
                 {

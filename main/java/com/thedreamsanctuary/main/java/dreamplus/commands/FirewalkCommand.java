@@ -30,7 +30,7 @@ public class FirewalkCommand implements CommandExecutor
         if (sender instanceof Player)
         {
             Player player = (Player) sender;
-            if (player.hasPermission("voxelplus2.command.firewalk"))
+            if (player.hasPermission("dreamplus.command.firewalk"))
             {
                 if (!firewalk.contains(player.getName()))
                 {

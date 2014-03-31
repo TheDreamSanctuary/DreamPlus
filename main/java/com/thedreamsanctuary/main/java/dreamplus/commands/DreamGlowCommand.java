@@ -42,7 +42,7 @@ public class DreamGlowCommand implements CommandExecutor
         {
             Player player = (Player) sender;
             
-            if (player.hasPermission("voxelplus2.command.vglow"))
+            if (player.hasPermission("dreamplus.command.dglow"))
             { 
                 if (args.length == 2)
                 {

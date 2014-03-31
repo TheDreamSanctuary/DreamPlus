@@ -28,7 +28,7 @@ public class GetMeJoeCommand implements CommandExecutor
         if (sender instanceof Player)
         {
             Player player = (Player) sender;
-            if (player.hasPermission("voxelplus2.command.getmejoe"))
+            if (player.hasPermission("dreamplus.command.getmejoe"))
             {
                 Random random = new Random();
                 int number = random.nextInt(50) + 1;

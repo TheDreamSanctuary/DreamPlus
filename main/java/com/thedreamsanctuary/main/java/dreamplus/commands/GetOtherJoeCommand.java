@@ -27,7 +27,7 @@ public class GetOtherJoeCommand implements CommandExecutor
         if (sender instanceof Player)
         {
             Player player = (Player) sender;
-            if (player.hasPermission("voxelplus2.command.getotherjoe"))
+            if (player.hasPermission("dreamplus.command.getotherjoe"))
             {
                 if (args.length == 2)
                 {

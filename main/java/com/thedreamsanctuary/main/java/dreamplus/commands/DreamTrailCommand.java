@@ -29,7 +29,7 @@ public class DreamTrailCommand implements CommandExecutor
         if (sender instanceof Player)
         {
             Player player = (Player) sender;
-            if (player.hasPermission("voxelplus2.command.vtrail"))
+            if (player.hasPermission("dreamplus.command.dtrail"))
             {
                 if (args.length == 1)
                 {
