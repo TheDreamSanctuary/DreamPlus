@@ -24,8 +24,8 @@ public class DreamGlowCommand implements CommandExecutor
     
     private void listMessage(Player player)
     {
-        player.sendMessage(ChatColor.GOLD + "Usage: /vglow [Glow]");
-        player.sendMessage(ChatColor.DARK_GRAY + "---------=[" + ChatColor.GOLD + "Voxelglows" + ChatColor.DARK_GRAY + "]=---------");
+        player.sendMessage(ChatColor.GOLD + "Usage: /dglow [Glow]");
+        player.sendMessage(ChatColor.DARK_GRAY + "---------=[" + ChatColor.GOLD + "DreamGlows" + ChatColor.DARK_GRAY + "]=---------");
         player.sendMessage(ChatColor.GOLD + "Sparks, Dust, BrownStar, BlueStar");
         player.sendMessage(ChatColor.GOLD + "RedStars, DarkredStar, Note, ,Portal");
         player.sendMessage(ChatColor.GOLD + "Code, Redstone, Derpy, Smoke, Snow");

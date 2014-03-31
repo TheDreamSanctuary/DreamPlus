@@ -45,9 +45,9 @@ public class DreamTrailCommand implements CommandExecutor
                         }
                     }
                     else if (args[0].toLowerCase().equals("off")) DPListener.removePlayerFromMap(player, trails);
-                    else player.sendMessage(ChatColor.GOLD + "Usage: /vtrail [Trail]or[Block Id:Data]]");
+                    else player.sendMessage(ChatColor.GOLD + "Usage: /dtrail [Trail]or[Block Id:Data]]");
                 }
-                else player.sendMessage(ChatColor.GOLD + "Usage: /vtrail [Trail]or[Block Id:Data]");
+                else player.sendMessage(ChatColor.GOLD + "Usage: /dtrail [Trail]or[Block Id:Data]");
             }
             else player.sendMessage(ChatColor.GOLD +  "You are not able to execute that command.");
         } 

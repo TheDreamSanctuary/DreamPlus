@@ -63,9 +63,9 @@ public class DreamHelmetCommand implements CommandExecutor
                             player.sendMessage(ChatColor.GOLD + "You have somthing on your head. LOL!");
                         }
                     }
-                    else player.sendMessage(ChatColor.GOLD + "Usage: /vhelm [Item Id]");
+                    else player.sendMessage(ChatColor.GOLD + "Usage: /dhelm [Item Id]");
                 }
-                else player.sendMessage(ChatColor.GOLD + "Usage: /vhelm [Item Id]");
+                else player.sendMessage(ChatColor.GOLD + "Usage: /dhelm [Item Id]");
             }
             else player.sendMessage(ChatColor.GOLD +  "You are not able to execute that command.");
         } 
