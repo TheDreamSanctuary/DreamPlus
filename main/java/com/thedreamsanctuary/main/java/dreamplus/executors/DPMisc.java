@@ -15,27 +15,9 @@ import org.bukkit.entity.Player;
  */
 
 public class DPMisc 
-{
-    private static int section(double yaw, boolean reverse) 
-    {
-        double absYaw = (yaw < 0) ? (360 + yaw) : yaw;
-        int section = (int) (absYaw - ((absYaw + 22.5) % 45.0) + 22.5);
-        if(reverse) section = ((section + 180) > 360) ? (section - 180) : (section + 180);
-        if(section == 0 || section == 360) return 1; //SOUTH -z
-        if(section == 45) return 2; //SOUTHWEST +x -z
-        if(section == 90) return 5; //WEST +x
-        if(section == 135) return 8; //NORTHWEST +x +z
-        if(section == 180) return 7; //NORTH +z
-        if(section == 225) return 6; //NORTHEAST -x +z
-        if(section == 270) return 3; //EAST -x
-        if(section == 315) return 0; //SOUTHEAST; -x -z
-        return 4;
-    }
-    
+{   
     public static boolean smokePipe(Player player)
     {
-        World world = player.getWorld();
-        int section = section(player.getLocation().getYaw(), true);
         if (!player.isSneaking()) 
         {
             double distance = 0.7;
