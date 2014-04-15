@@ -22,6 +22,8 @@ commands:
         description: Fart out fariy sprinkles.
     dtrail:
         description: The ground breaks beneath your feet.
+    me:
+        description: Be the morgan freeman of your life.
     
 permissions:
     dreamplus.command.getmedrunk:
@@ -36,4 +38,6 @@ permissions:
         defualt: false
     dreamplus.command.getotherjoe:
         defualt: false
+    dreamplus.command.me:
+        default: true
     

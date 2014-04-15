@@ -1,5 +1,6 @@
 package com.thedreamsanctuary.main.java.dreamplus;
 
+import com.thedreamsanctuary.main.java.dreamplus.commands.DreamEmoteCommand;
 import com.thedreamsanctuary.main.java.dreamplus.commands.DreamTrailCommand;
 import com.thedreamsanctuary.main.java.dreamplus.commands.DreamGlowCommand;
 import com.thedreamsanctuary.main.java.dreamplus.commands.GetOtherDrunkCommand;
@@ -42,6 +43,7 @@ public class DreamPlus extends JavaPlugin
         getCommand("dhelm").setExecutor(new DreamHelmetCommand(this));
         getCommand("dglow").setExecutor(new DreamGlowCommand(this));
         getCommand("dtrail").setExecutor(new DreamTrailCommand(this));
+        getCommand("me").setExecutor(new DreamEmoteCommand(this));
     }
     
     @Override
